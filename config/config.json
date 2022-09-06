@@ -1,0 +1,20 @@
+{
+  "development": {
+    "username": "root",
+    "password": null,
+    "database": "tdd2-dev",
+    "host": "127.0.0.1",
+    "dialect": "mysql"
+  },
+  "test": {
+    "username": "root",
+    "password": null,
+    "database": "tdd2-test",
+    "host": "127.0.0.1",
+    "dialect": "mysql"
+  },
+  "production": {
+    "database": "DATABASE_URL",
+    "dialect": "mysql"
+  }
+}
